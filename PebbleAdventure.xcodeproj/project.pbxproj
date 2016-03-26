@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E81C98B1CA619920043C26C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E81C98A1CA619920043C26C /* main.m */; };
+		7E81C98E1CA619920043C26C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E81C98D1CA619920043C26C /* AppDelegate.m */; };
+		7E81C9911CA619920043C26C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E81C9901CA619920043C26C /* ViewController.m */; };
+		7E81C9941CA619920043C26C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E81C9921CA619920043C26C /* Main.storyboard */; };
+		7E81C9961CA619920043C26C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E81C9951CA619920043C26C /* Assets.xcassets */; };
+		7E81C9991CA619920043C26C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E81C9971CA619920043C26C /* LaunchScreen.storyboard */; };
+		7E81C9A41CA619920043C26C /* PebbleAdventureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E81C9A31CA619920043C26C /* PebbleAdventureTests.m */; };
+		7E81C9AF1CA619920043C26C /* PebbleAdventureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E81C9AE1CA619920043C26C /* PebbleAdventureUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E81C9A01CA619920043C26C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E81C97E1CA619920043C26C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E81C9851CA619920043C26C;
+			remoteInfo = PebbleAdventure;
+		};
+		7E81C9AB1CA619920043C26C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E81C97E1CA619920043C26C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E81C9851CA619920043C26C;
+			remoteInfo = PebbleAdventure;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E81C9861CA619920043C26C /* PebbleAdventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PebbleAdventure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E81C98A1CA619920043C26C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E81C98C1CA619920043C26C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E81C98D1CA619920043C26C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E81C98F1CA619920043C26C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7E81C9901CA619920043C26C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7E81C9931CA619920043C26C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E81C9951CA619920043C26C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E81C9981CA619920043C26C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E81C99A1CA619920043C26C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E81C99F1CA619920043C26C /* PebbleAdventureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PebbleAdventureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E81C9A31CA619920043C26C /* PebbleAdventureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PebbleAdventureTests.m; sourceTree = "<group>"; };
+		7E81C9A51CA619920043C26C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E81C9AA1CA619920043C26C /* PebbleAdventureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PebbleAdventureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E81C9AE1CA619920043C26C /* PebbleAdventureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PebbleAdventureUITests.m; sourceTree = "<group>"; };
+		7E81C9B01CA619920043C26C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E81C9831CA619920043C26C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E81C99C1CA619920043C26C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E81C9A71CA619920043C26C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E81C97D1CA619920043C26C = {
+			isa = PBXGroup;
+			children = (
+				7E81C9881CA619920043C26C /* PebbleAdventure */,
+				7E81C9A21CA619920043C26C /* PebbleAdventureTests */,
+				7E81C9AD1CA619920043C26C /* PebbleAdventureUITests */,
+				7E81C9871CA619920043C26C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E81C9871CA619920043C26C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E81C9861CA619920043C26C /* PebbleAdventure.app */,
+				7E81C99F1CA619920043C26C /* PebbleAdventureTests.xctest */,
+				7E81C9AA1CA619920043C26C /* PebbleAdventureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E81C9881CA619920043C26C /* PebbleAdventure */ = {
+			isa = PBXGroup;
+			children = (
+				7E81C98C1CA619920043C26C /* AppDelegate.h */,
+				7E81C98D1CA619920043C26C /* AppDelegate.m */,
+				7E81C98F1CA619920043C26C /* ViewController.h */,
+				7E81C9901CA619920043C26C /* ViewController.m */,
+				7E81C9921CA619920043C26C /* Main.storyboard */,
+				7E81C9951CA619920043C26C /* Assets.xcassets */,
+				7E81C9971CA619920043C26C /* LaunchScreen.storyboard */,
+				7E81C99A1CA619920043C26C /* Info.plist */,
+				7E81C9891CA619920043C26C /* Supporting Files */,
+			);
+			path = PebbleAdventure;
+			sourceTree = "<group>";
+		};
+		7E81C9891CA619920043C26C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E81C98A1CA619920043C26C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E81C9A21CA619920043C26C /* PebbleAdventureTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E81C9A31CA619920043C26C /* PebbleAdventureTests.m */,
+				7E81C9A51CA619920043C26C /* Info.plist */,
+			);
+			path = PebbleAdventureTests;
+			sourceTree = "<group>";
+		};
+		7E81C9AD1CA619920043C26C /* PebbleAdventureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E81C9AE1CA619920043C26C /* PebbleAdventureUITests.m */,
+				7E81C9B01CA619920043C26C /* Info.plist */,
+			);
+			path = PebbleAdventureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E81C9851CA619920043C26C /* PebbleAdventure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E81C9B31CA619930043C26C /* Build configuration list for PBXNativeTarget "PebbleAdventure" */;
+			buildPhases = (
+				7E81C9821CA619920043C26C /* Sources */,
+				7E81C9831CA619920043C26C /* Frameworks */,
+				7E81C9841CA619920043C26C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PebbleAdventure;
+			productName = PebbleAdventure;
+			productReference = 7E81C9861CA619920043C26C /* PebbleAdventure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E81C99E1CA619920043C26C /* PebbleAdventureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E81C9B61CA619930043C26C /* Build configuration list for PBXNativeTarget "PebbleAdventureTests" */;
+			buildPhases = (
+				7E81C99B1CA619920043C26C /* Sources */,
+				7E81C99C1CA619920043C26C /* Frameworks */,
+				7E81C99D1CA619920043C26C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E81C9A11CA619920043C26C /* PBXTargetDependency */,
+			);
+			name = PebbleAdventureTests;
+			productName = PebbleAdventureTests;
+			productReference = 7E81C99F1CA619920043C26C /* PebbleAdventureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E81C9A91CA619920043C26C /* PebbleAdventureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E81C9B91CA619930043C26C /* Build configuration list for PBXNativeTarget "PebbleAdventureUITests" */;
+			buildPhases = (
+				7E81C9A61CA619920043C26C /* Sources */,
+				7E81C9A71CA619920043C26C /* Frameworks */,
+				7E81C9A81CA619920043C26C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E81C9AC1CA619920043C26C /* PBXTargetDependency */,
+			);
+			name = PebbleAdventureUITests;
+			productName = PebbleAdventureUITests;
+			productReference = 7E81C9AA1CA619920043C26C /* PebbleAdventureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E81C97E1CA619920043C26C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				TargetAttributes = {
+					7E81C9851CA619920043C26C = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					7E81C99E1CA619920043C26C = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 7E81C9851CA619920043C26C;
+					};
+					7E81C9A91CA619920043C26C = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 7E81C9851CA619920043C26C;
+					};
+				};
+			};
+			buildConfigurationList = 7E81C9811CA619920043C26C /* Build configuration list for PBXProject "PebbleAdventure" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E81C97D1CA619920043C26C;
+			productRefGroup = 7E81C9871CA619920043C26C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E81C9851CA619920043C26C /* PebbleAdventure */,
+				7E81C99E1CA619920043C26C /* PebbleAdventureTests */,
+				7E81C9A91CA619920043C26C /* PebbleAdventureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E81C9841CA619920043C26C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E81C9991CA619920043C26C /* LaunchScreen.storyboard in Resources */,
+				7E81C9961CA619920043C26C /* Assets.xcassets in Resources */,
+				7E81C9941CA619920043C26C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E81C99D1CA619920043C26C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E81C9A81CA619920043C26C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E81C9821CA619920043C26C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E81C9911CA619920043C26C /* ViewController.m in Sources */,
+				7E81C98E1CA619920043C26C /* AppDelegate.m in Sources */,
+				7E81C98B1CA619920043C26C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E81C99B1CA619920043C26C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E81C9A41CA619920043C26C /* PebbleAdventureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E81C9A61CA619920043C26C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E81C9AF1CA619920043C26C /* PebbleAdventureUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E81C9A11CA619920043C26C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E81C9851CA619920043C26C /* PebbleAdventure */;
+			targetProxy = 7E81C9A01CA619920043C26C /* PBXContainerItemProxy */;
+		};
+		7E81C9AC1CA619920043C26C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E81C9851CA619920043C26C /* PebbleAdventure */;
+			targetProxy = 7E81C9AB1CA619920043C26C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E81C9921CA619920043C26C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E81C9931CA619920043C26C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E81C9971CA619920043C26C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E81C9981CA619920043C26C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E81C9B11CA619930043C26C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E81C9B21CA619930043C26C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E81C9B41CA619930043C26C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PebbleAdventure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tagMyAss.PebbleAdventure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7E81C9B51CA619930043C26C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PebbleAdventure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tagMyAss.PebbleAdventure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7E81C9B71CA619930043C26C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PebbleAdventureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tagMyAss.PebbleAdventureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PebbleAdventure.app/PebbleAdventure";
+			};
+			name = Debug;
+		};
+		7E81C9B81CA619930043C26C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PebbleAdventureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tagMyAss.PebbleAdventureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PebbleAdventure.app/PebbleAdventure";
+			};
+			name = Release;
+		};
+		7E81C9BA1CA619930043C26C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PebbleAdventureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tagMyAss.PebbleAdventureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PebbleAdventure;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7E81C9BB1CA619930043C26C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PebbleAdventureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tagMyAss.PebbleAdventureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PebbleAdventure;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E81C9811CA619920043C26C /* Build configuration list for PBXProject "PebbleAdventure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E81C9B11CA619930043C26C /* Debug */,
+				7E81C9B21CA619930043C26C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E81C9B31CA619930043C26C /* Build configuration list for PBXNativeTarget "PebbleAdventure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E81C9B41CA619930043C26C /* Debug */,
+				7E81C9B51CA619930043C26C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E81C9B61CA619930043C26C /* Build configuration list for PBXNativeTarget "PebbleAdventureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E81C9B71CA619930043C26C /* Debug */,
+				7E81C9B81CA619930043C26C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E81C9B91CA619930043C26C /* Build configuration list for PBXNativeTarget "PebbleAdventureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E81C9BA1CA619930043C26C /* Debug */,
+				7E81C9BB1CA619930043C26C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E81C97E1CA619920043C26C /* Project object */;
+}
