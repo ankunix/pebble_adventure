@@ -19,6 +19,30 @@
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    if (![[NSUserDefaults standardUserDefaults] boolForKey:@"loggedIn"]) {
+        [[NSUserDefaults standardUserDefaults] setBool:NO forKey:@"loggedIn"];
+        self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+        
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        
+        UIViewController *viewController = [storyboard instantiateViewControllerWithIdentifier:@"loginNav"];
+        
+        self.window.rootViewController = viewController;
+        [self.window makeKeyAndVisible];
+
+    }
+    if ([[NSUserDefaults standardUserDefaults] boolForKey:@"loggedIn"] == YES) {
+        
+        self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+        
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        
+        UIViewController *viewController = [storyboard instantiateViewControllerWithIdentifier:@"appNav"];
+        
+        self.window.rootViewController = viewController;
+        [self.window makeKeyAndVisible];
+        
+    }
     // Override point for customization after application launch.
     return YES;
 }

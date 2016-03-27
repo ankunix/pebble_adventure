@@ -20,6 +20,15 @@
 		7E3A86691CA7328100A1C528 /* heartbeat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A86681CA7328100A1C528 /* heartbeat.mp3 */; };
 		7E3A866B1CA7331800A1C528 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E3A866A1CA7331800A1C528 /* AudioToolbox.framework */; };
 		7E3A866F1CA7367100A1C528 /* heartrate.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A866E1CA7367100A1C528 /* heartrate.wav */; };
+		7E3A86751CA7D40800A1C528 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E3A86741CA7D40800A1C528 /* HealthKit.framework */; };
+		7E3A867B1CA7D77C00A1C528 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3A867A1CA7D77C00A1C528 /* ProfileViewController.m */; };
+		7E3A867D1CA7DD5500A1C528 /* darran.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A867C1CA7DD5500A1C528 /* darran.jpg */; };
+		7E3A867F1CA7DD5E00A1C528 /* cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A867E1CA7DD5E00A1C528 /* cover.jpg */; };
+		7E3A86811CA7F3B100A1C528 /* ankush.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A86801CA7F3B100A1C528 /* ankush.jpeg */; };
+		7E3A86831CA7F41C00A1C528 /* yosemite.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A86821CA7F41C00A1C528 /* yosemite.jpg */; };
+		7E3A86851CA7F46200A1C528 /* walk.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A86841CA7F46200A1C528 /* walk.png */; };
+		7E3A86881CA7F9E400A1C528 /* CALayer+XibConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3A86871CA7F9E400A1C528 /* CALayer+XibConfiguration.m */; };
+		7E3A868B1CA7FCDB00A1C528 /* HeartRateControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3A868A1CA7FCDB00A1C528 /* HeartRateControllerViewController.m */; };
 		7E81C98B1CA619920043C26C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E81C98A1CA619920043C26C /* main.m */; };
 		7E81C98E1CA619920043C26C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E81C98D1CA619920043C26C /* AppDelegate.m */; };
 		7E81C9911CA619920043C26C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E81C9901CA619920043C26C /* ViewController.m */; };
@@ -70,6 +79,19 @@
 		7E3A86681CA7328100A1C528 /* heartbeat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = heartbeat.mp3; sourceTree = "<group>"; };
 		7E3A866A1CA7331800A1C528 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		7E3A866E1CA7367100A1C528 /* heartrate.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = heartrate.wav; sourceTree = "<group>"; };
+		7E3A86731CA7D3FC00A1C528 /* PebbleAdventure.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PebbleAdventure.entitlements; sourceTree = "<group>"; };
+		7E3A86741CA7D40800A1C528 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		7E3A86791CA7D77C00A1C528 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		7E3A867A1CA7D77C00A1C528 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		7E3A867C1CA7DD5500A1C528 /* darran.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = darran.jpg; sourceTree = "<group>"; };
+		7E3A867E1CA7DD5E00A1C528 /* cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cover.jpg; sourceTree = "<group>"; };
+		7E3A86801CA7F3B100A1C528 /* ankush.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ankush.jpeg; sourceTree = "<group>"; };
+		7E3A86821CA7F41C00A1C528 /* yosemite.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yosemite.jpg; sourceTree = "<group>"; };
+		7E3A86841CA7F46200A1C528 /* walk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = walk.png; sourceTree = "<group>"; };
+		7E3A86861CA7F9E400A1C528 /* CALayer+XibConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+XibConfiguration.h"; sourceTree = "<group>"; };
+		7E3A86871CA7F9E400A1C528 /* CALayer+XibConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+XibConfiguration.m"; sourceTree = "<group>"; };
+		7E3A86891CA7FCDB00A1C528 /* HeartRateControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartRateControllerViewController.h; sourceTree = "<group>"; };
+		7E3A868A1CA7FCDB00A1C528 /* HeartRateControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartRateControllerViewController.m; sourceTree = "<group>"; };
 		7E81C9861CA619920043C26C /* PebbleAdventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PebbleAdventure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E81C98A1CA619920043C26C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7E81C98C1CA619920043C26C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -100,6 +122,7 @@
 				7E3A86611CA71B4500A1C528 /* ExternalAccessory.framework in Frameworks */,
 				7E3A865F1CA7195500A1C528 /* Pulse2SDK.framework in Frameworks */,
 				7E81C9BF1CA630680043C26C /* AVKit.framework in Frameworks */,
+				7E3A86751CA7D40800A1C528 /* HealthKit.framework in Frameworks */,
 				7E81C9BD1CA630640043C26C /* AVFoundation.framework in Frameworks */,
 				4CA044416C5B0D480F79D111 /* libPods-PebbleAdventure.a in Frameworks */,
 			);
@@ -163,6 +186,7 @@
 		7E81C9881CA619920043C26C /* PebbleAdventure */ = {
 			isa = PBXGroup;
 			children = (
+				7E3A86731CA7D3FC00A1C528 /* PebbleAdventure.entitlements */,
 				7E3A865B1CA7038400A1C528 /* Table Cells */,
 				7E1D6AA41CA6910E0094275E /* Filter.h */,
 				7E1D6AA51CA6910E0094275E /* Filter.m */,
@@ -185,6 +209,12 @@
 				7E3A86631CA71C3500A1C528 /* FinalTableViewController.m */,
 				7E3A86651CA71C4400A1C528 /* FinalVieWController.h */,
 				7E3A86661CA71C4400A1C528 /* FinalVieWController.m */,
+				7E3A86791CA7D77C00A1C528 /* ProfileViewController.h */,
+				7E3A867A1CA7D77C00A1C528 /* ProfileViewController.m */,
+				7E3A86861CA7F9E400A1C528 /* CALayer+XibConfiguration.h */,
+				7E3A86871CA7F9E400A1C528 /* CALayer+XibConfiguration.m */,
+				7E3A86891CA7FCDB00A1C528 /* HeartRateControllerViewController.h */,
+				7E3A868A1CA7FCDB00A1C528 /* HeartRateControllerViewController.m */,
 			);
 			path = PebbleAdventure;
 			sourceTree = "<group>";
@@ -192,6 +222,11 @@
 		7E81C9891CA619920043C26C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7E3A86841CA7F46200A1C528 /* walk.png */,
+				7E3A86821CA7F41C00A1C528 /* yosemite.jpg */,
+				7E3A86801CA7F3B100A1C528 /* ankush.jpeg */,
+				7E3A867E1CA7DD5E00A1C528 /* cover.jpg */,
+				7E3A867C1CA7DD5500A1C528 /* darran.jpg */,
 				7E3A866E1CA7367100A1C528 /* heartrate.wav */,
 				7E3A86681CA7328100A1C528 /* heartbeat.mp3 */,
 				7E1D6AAA1CA696240094275E /* biking.jpg */,
@@ -221,6 +256,7 @@
 		9F3D76B6061627BA911B88D8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7E3A86741CA7D40800A1C528 /* HealthKit.framework */,
 				7E3A866A1CA7331800A1C528 /* AudioToolbox.framework */,
 				7E3A86601CA71B4500A1C528 /* ExternalAccessory.framework */,
 				7E3A865E1CA7195500A1C528 /* Pulse2SDK.framework */,
@@ -301,6 +337,11 @@
 					7E81C9851CA619920043C26C = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = T5AJUJ49B2;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 					7E81C99E1CA619920043C26C = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -343,6 +384,11 @@
 				7E3A866F1CA7367100A1C528 /* heartrate.wav in Resources */,
 				7E81C9961CA619920043C26C /* Assets.xcassets in Resources */,
 				7E81C9941CA619920043C26C /* Main.storyboard in Resources */,
+				7E3A86831CA7F41C00A1C528 /* yosemite.jpg in Resources */,
+				7E3A867D1CA7DD5500A1C528 /* darran.jpg in Resources */,
+				7E3A86811CA7F3B100A1C528 /* ankush.jpeg in Resources */,
+				7E3A86851CA7F46200A1C528 /* walk.png in Resources */,
+				7E3A867F1CA7DD5E00A1C528 /* cover.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,10 +462,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E81C9911CA619920043C26C /* ViewController.m in Sources */,
+				7E3A868B1CA7FCDB00A1C528 /* HeartRateControllerViewController.m in Sources */,
 				7E1D6AA31CA651870094275E /* GraphViewController.m in Sources */,
 				7E3A86671CA71C4400A1C528 /* FinalVieWController.m in Sources */,
 				7E1D6AAE1CA6F07D0094275E /* SignupTableViewController.m in Sources */,
+				7E3A867B1CA7D77C00A1C528 /* ProfileViewController.m in Sources */,
 				7E81C98E1CA619920043C26C /* AppDelegate.m in Sources */,
+				7E3A86881CA7F9E400A1C528 /* CALayer+XibConfiguration.m in Sources */,
 				7E1D6AA91CA6910E0094275E /* PulseDetector.mm in Sources */,
 				7E81C98B1CA619920043C26C /* main.m in Sources */,
 				7E3A86641CA71C3500A1C528 /* FinalTableViewController.m in Sources */,
@@ -563,15 +612,18 @@
 			baseConfigurationReference = F0FF42BFB9DF350E2B695355 /* Pods-PebbleAdventure.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Darran Hall (QQG4VKEQF5)";
+				CODE_SIGN_ENTITLEMENTS = PebbleAdventure/PebbleAdventure.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = PebbleAdventure/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tagMyAss.PebbleAdventure;
+				PRODUCT_BUNDLE_IDENTIFIER = io.tagMyAss.PebbleAdventure;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -580,15 +632,18 @@
 			baseConfigurationReference = 44A54D8A8D3320C709022C4E /* Pods-PebbleAdventure.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Darran Hall (QQG4VKEQF5)";
+				CODE_SIGN_ENTITLEMENTS = PebbleAdventure/PebbleAdventure.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = PebbleAdventure/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tagMyAss.PebbleAdventure;
+				PRODUCT_BUNDLE_IDENTIFIER = io.tagMyAss.PebbleAdventure;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

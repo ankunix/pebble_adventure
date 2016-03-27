@@ -12,6 +12,5 @@
 @property (nonatomic, strong) NSMutableArray *colorArray;
 @property (nonatomic, strong) NSMutableArray *colorArray1;
 @property (nonatomic, strong) NSMutableArray *colorArray2;
-@property (nonatomic, strong) NSMutableArray *randomArray;
 
 @end

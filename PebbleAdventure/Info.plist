@@ -4,10 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
-	<key>UISupportedExternalAccessoryProtocols</key>
-	<array>
-		<string>com.jbl.connect</string>
-	</array>
+	<key>NSHealthShareUsageDescription</key>
+	<string>Baton wants to access things such as your steps, age, weight, and height if it&apos;s in the health app, just so we can keep tabs on your progress.</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -33,14 +31,19 @@
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
+		<string>healthkit</string>
 	</array>
 	<key>UIStatusBarStyle</key>
 	<string>UIStatusBarStyleLightContent</string>
+	<key>UISupportedExternalAccessoryProtocols</key>
+	<array>
+		<string>com.jbl.connect</string>
+	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
-	<false/>
+	<true/>
 </dict>
 </plist>
