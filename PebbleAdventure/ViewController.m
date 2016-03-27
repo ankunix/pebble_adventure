@@ -46,9 +46,9 @@ typedef NS_ENUM(NSUInteger, CURRENT_STATE) {
     [HMNLedControl setLedBrightness:45];
     [self setNeedsStatusBarAppearanceUpdate];
 
-    //self.filter = [[Filter alloc] init];
+    self.filter = [[Filter alloc] init];
     self.navigationController.navigationBarHidden = YES;
-    //self.pulseDetector = [[PulseDetector alloc] init];
+    self.pulseDetector = [[PulseDetector alloc] init];
     [super viewDidLoad];
     self.iconImage.center = self.view.center;
     [self performSelector:@selector(animateAll) withObject:self];
@@ -288,11 +288,11 @@ void RGBtoHSV( float r, float g, float b, float *h, float *s, float *v ) {
     float avePeriod=[self.pulseDetector getAverage];
     if(avePeriod==INVALID_PULSE_PERIOD) {
         // no value available
-        self.heartRateLabel.text=@"--";
+        self.pulseRate.text=@"--";
     } else {
         // got a value so show it
         float pulse=60.0/avePeriod;
-        self.heartRateLabel.text=[NSString stringWithFormat:@"%0.0f", pulse];
+        self.pulseRate.text=[NSString stringWithFormat:@"%0.0f", pulse];
     }
 }
 

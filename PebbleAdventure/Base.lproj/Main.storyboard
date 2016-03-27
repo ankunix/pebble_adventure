@@ -122,6 +122,9 @@
                                                 <exclude reference="Y5E-0z-uJa"/>
                                             </mask>
                                         </variation>
+                                        <connections>
+                                            <action selector="startCapture:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BzT-rH-eOS"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uv6-Ok-W0s">
                                         <rect key="frame" x="450" y="415" width="80" height="80"/>
@@ -198,6 +201,12 @@
                                     <constraint firstAttribute="width" secondItem="nBP-gi-6hw" secondAttribute="height" multiplier="1:1" id="kgX-BX-yPa"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hiH-Xa-wqP">
+                                <rect key="frame" x="279" y="559" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.14117647058823529" green="0.7803921568627451" blue="0.97647058823529409" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -225,6 +234,7 @@
                         <outlet property="iconImage" destination="nBP-gi-6hw" id="ljo-g8-Nzc"/>
                         <outlet property="mainView" destination="35p-fp-6E1" id="3jm-r5-to5"/>
                         <outlet property="passwordField" destination="S54-Uo-yRu" id="uRq-Oh-Btf"/>
+                        <outlet property="pulseRate" destination="hiH-Xa-wqP" id="mig-6Y-wEb"/>
                         <outlet property="usernameField" destination="InW-9z-aWU" id="Wcm-jq-pIc"/>
                     </connections>
                 </viewController>

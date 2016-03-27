@@ -27,156 +27,198 @@
     // Do any additional setup after loading the view.
 }
 
--(void)rotateLine:(int)l {
-    self.randomArray = [[NSMutableArray alloc] init];
-    for (int i = 0; i < 9; i++) {
-        for (int j = 0; j < 11; j++) {
-            if (j % l == 0) {
-                UInt8 red = 255;
-                UInt8 green = 255;
-                UInt8 blue = 255;
-                NSLog(@"%hhu, %hhu, %hhu", red, green, blue);
-                UIColor *color1 = [UIColor colorWithRed:red/255.f green:green/255.f blue:blue/255.f alpha:1.f];
-                [self.randomArray addObject:color1];
-            } else {
-                UInt8 red = 255;
-                UInt8 green = 0;
-                UInt8 blue = 0;
-                NSLog(@"%hhu, %hhu, %hhu", red, green, blue);
-                UIColor *color1 = [UIColor colorWithRed:red/255.f green:green/255.f blue:blue/255.f alpha:1.f];
-                [self.randomArray addObject:color1];
-                
-                
-            }
-        }
-    }
+//-(void)drawLine:(int)l {
+//    self.randomArray = [[NSMutableArray alloc] init];
+//    for (int i = 0; i < 9; i++) {
+//        for (int j = 0; j < 11; j++) {
+//            if (j % 11 == l) {
+//                UInt8 red = 255;
+//                UInt8 green = 255;
+//                UInt8 blue = 255;
+//                NSLog(@"%hhu, %hhu, %hhu", red, green, blue);
+//                UIColor *color1 = [UIColor colorWithRed:red/255.f green:green/255.f blue:blue/255.f alpha:1.f];
+//                [self.randomArray addObject:color1];
+//            } else {
+//                UInt8 red = 255;
+//                UInt8 green = 0;
+//                UInt8 blue = 0;
+//                NSLog(@"%hhu, %hhu, %hhu", red, green, blue);
+//                UIColor *color1 = [UIColor colorWithRed:red/255.f green:green/255.f blue:blue/255.f alpha:1.f];
+//                [self.randomArray addObject:color1];
+//                
+//                
+//            }
+//        }
+//    }
+//
+//    
+//}
+//
+//-(void)rotatePulse {
+//    for (int i = 0; i < 9; i++) {
+//        for (int j = 0; j < 10; j++) {
+//            [self.randomArray replaceObjectAtIndex:((j*9)+i) withObject:[self.randomArray objectAtIndex:((j*10)+i)]];
+//            }
+//    }
+//}
+//    
 
-    
-}
+
+
+//-(void)initPulse {
+//    self.randomArray = [[NSMutableArray alloc] init];
+//    for (int i = 0; i < 9; i++) {
+//        for (int j = 0; j < 11; j++) {
+//            if (j*9+i==98) {
+//                UInt8 red = 255;
+//                UInt8 green = 255;
+//                UInt8 blue = 255;
+//                NSLog(@"%hhu, %hhu, %hhu", red, green, blue);
+//                UIColor *color1 = [UIColor colorWithRed:red/255.f green:green/255.f blue:blue/255.f alpha:1.f];
+//                [self.randomArray addObject:color1];
+//                
+//            }
+//            else{
+//                UInt8 red = 138;
+//                UInt8 green = 7;
+//                UInt8 blue = 7;
+//                NSLog(@"%hhu, %hhu, %hhu", red, green, blue);
+//                UIColor *color1 = [UIColor colorWithRed:red/255.f green:green/255.f blue:blue/255.f alpha:1.f];
+//                [self.randomArray addObject:color1];
+//                
+//            }
+//            }
+//        }
+//    }
+//    
+//    
+//
 
 
 - (IBAction)presentAlertThenPush:(id)sender {
+//    
+//     self.randomArray = [[NSMutableArray alloc] init];
+//
+//    for (int i = 0; i < 9; i++) {
+//        for (int j = 0; j < 11; j++) {
+//            NSLog(@"%ul", j);
+//            if (j % 11 == 0) {
+//                UInt8 red = 255;
+//                UInt8 green = 255;
+//                UInt8 blue = 255;
+//                NSLog(@"%hhu, %hhu, %hhu", red, green, blue);
+//                UIColor *color1 = [UIColor colorWithRed:red/255.f green:green/255.f blue:blue/255.f alpha:1.f];
+//                [self.randomArray addObject:color1];
+//            } else {
+//                UInt8 red = 255;
+//                UInt8 green = 0;
+//                UInt8 blue = 0;
+//                NSLog(@"%hhu, %hhu, %hhu", red, green, blue);
+//                UIColor *color1 = [UIColor colorWithRed:red/255.f green:green/255.f blue:blue/255.f alpha:1.f];
+//                [self.randomArray addObject:color1];
+//                        
+//                        
+//            }
+//        }
+//    }
     
-     self.randomArray = [[NSMutableArray alloc] init];
+    self.colorArray = [[NSMutableArray alloc] init];
 
     for (int i = 0; i < 9; i++) {
         for (int j = 0; j < 11; j++) {
-            NSLog(@"%ul", j);
-            if (j % 11 == 0) {
+            if (i % 9 <= 2) {
                 UInt8 red = 255;
                 UInt8 green = 255;
                 UInt8 blue = 255;
                 NSLog(@"%hhu, %hhu, %hhu", red, green, blue);
                 UIColor *color1 = [UIColor colorWithRed:red/255.f green:green/255.f blue:blue/255.f alpha:1.f];
-                [self.randomArray addObject:color1];
+                [self.colorArray addObject:color1];
+            } else if (i % 9 <= 5) {
+                UInt8 red = 255;
+                UInt8 green = 255;
+                UInt8 blue = 255;
+                NSLog(@"%hhu, %hhu, %hhu", red, green, blue);
+                UIColor *color1 = [UIColor colorWithRed:red/255.f green:green/255.f blue:blue/255.f alpha:1.f];
+                [self.colorArray addObject:color1];
+                
             } else {
                 UInt8 red = 255;
                 UInt8 green = 0;
                 UInt8 blue = 0;
                 NSLog(@"%hhu, %hhu, %hhu", red, green, blue);
                 UIColor *color1 = [UIColor colorWithRed:red/255.f green:green/255.f blue:blue/255.f alpha:1.f];
-                [self.randomArray addObject:color1];
-                        
-                        
+                [self.colorArray addObject:color1];
+                
+                
             }
         }
     }
+    self.colorArray1 = [[NSMutableArray alloc] init];
     
-//    self.colorArray = [[NSMutableArray alloc] init];
-//
-//    for (int i = 0; i < 9; i++) {
-//        for (int j = 0; j < 11; j++) {
-//            if (i % 9 <= 2) {
-//                UInt8 red = 255;
-//                UInt8 green = 255;
-//                UInt8 blue = 255;
-//                NSLog(@"%hhu, %hhu, %hhu", red, green, blue);
-//                UIColor *color1 = [UIColor colorWithRed:red/255.f green:green/255.f blue:blue/255.f alpha:1.f];
-//                [self.colorArray addObject:color1];
-//            } else if (i % 9 <= 5) {
-//                UInt8 red = 255;
-//                UInt8 green = 255;
-//                UInt8 blue = 255;
-//                NSLog(@"%hhu, %hhu, %hhu", red, green, blue);
-//                UIColor *color1 = [UIColor colorWithRed:red/255.f green:green/255.f blue:blue/255.f alpha:1.f];
-//                [self.colorArray addObject:color1];
-//                
-//            } else {
-//                UInt8 red = 255;
-//                UInt8 green = 0;
-//                UInt8 blue = 0;
-//                NSLog(@"%hhu, %hhu, %hhu", red, green, blue);
-//                UIColor *color1 = [UIColor colorWithRed:red/255.f green:green/255.f blue:blue/255.f alpha:1.f];
-//                [self.colorArray addObject:color1];
-//                
-//                
-//            }
-//        }
-//    }
-//    self.colorArray1 = [[NSMutableArray alloc] init];
-//    
-//    for (int i = 0; i < 9; i++) {
-//        for (int j = 0; j < 11; j++) {
-//            if (i % 9 <= 2) {
-//                UInt8 red = 255;
-//                UInt8 green = 255;
-//                UInt8 blue = 255;
-//                NSLog(@"%hhu, %hhu, %hhu", red, green, blue);
-//                UIColor *color1 = [UIColor colorWithRed:red/255.f green:green/255.f blue:blue/255.f alpha:1.f];
-//                [self.colorArray1 addObject:color1];
-//            } else if (i % 9 <= 5) {
-//                UInt8 red = 255;
-//                UInt8 green = 0;
-//                UInt8 blue = 0;
-//                NSLog(@"%hhu, %hhu, %hhu", red, green, blue);
-//                UIColor *color1 = [UIColor colorWithRed:red/255.f green:green/255.f blue:blue/255.f alpha:1.f];
-//                [self.colorArray1 addObject:color1];
-//                
-//            } else {
-//                UInt8 red = 255;
-//                UInt8 green = 255;
-//                UInt8 blue = 255;
-//                NSLog(@"%hhu, %hhu, %hhu", red, green, blue);
-//                UIColor *color1 = [UIColor colorWithRed:red/255.f green:green/255.f blue:blue/255.f alpha:1.f];
-//                [self.colorArray1 addObject:color1];
-//                
-//                
-//            }
-//        }
-//    }
-//    self.colorArray2 = [[NSMutableArray alloc] init];
-//    
-//    for (int i = 0; i < 9; i++) {
-//        for (int j = 0; j < 11; j++) {
-//            if (i % 9 <= 2) {
-//                UInt8 red = 255;
-//                UInt8 green = 0;
-//                UInt8 blue = 0;
-//                NSLog(@"%hhu, %hhu, %hhu", red, green, blue);
-//                UIColor *color1 = [UIColor colorWithRed:red/255.f green:green/255.f blue:blue/255.f alpha:1.f];
-//                [self.colorArray2 addObject:color1];
-//            } else if (i % 9 <= 5) {
-//                UInt8 red = 255;
-//                UInt8 green = 255;
-//                UInt8 blue = 255;
-//                NSLog(@"%hhu, %hhu, %hhu", red, green, blue);
-//                UIColor *color1 = [UIColor colorWithRed:red/255.f green:green/255.f blue:blue/255.f alpha:1.f];
-//                [self.colorArray2 addObject:color1];
-//                
-//            } else {
-//                UInt8 red = 255;
-//                UInt8 green = 255;
-//                UInt8 blue = 255;
-//                NSLog(@"%hhu, %hhu, %hhu", red, green, blue);
-//                UIColor *color1 = [UIColor colorWithRed:red/255.f green:green/255.f blue:blue/255.f alpha:1.f];
-//                [self.colorArray2 addObject:color1];
-//                
-//                
-//            }
-//        }
-//    }
-//    
-    NSTimer *aTimer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(animateLights) userInfo:nil repeats:YES];
+    for (int i = 0; i < 9; i++) {
+        for (int j = 0; j < 11; j++) {
+            if (i % 9 <= 2) {
+                UInt8 red = 255;
+                UInt8 green = 255;
+                UInt8 blue = 255;
+                NSLog(@"%hhu, %hhu, %hhu", red, green, blue);
+                UIColor *color1 = [UIColor colorWithRed:red/255.f green:green/255.f blue:blue/255.f alpha:1.f];
+                [self.colorArray1 addObject:color1];
+            } else if (i % 9 <= 5) {
+                UInt8 red = 255;
+                UInt8 green = 0;
+                UInt8 blue = 0;
+                NSLog(@"%hhu, %hhu, %hhu", red, green, blue);
+                UIColor *color1 = [UIColor colorWithRed:red/255.f green:green/255.f blue:blue/255.f alpha:1.f];
+                [self.colorArray1 addObject:color1];
+                
+            } else {
+                UInt8 red = 255;
+                UInt8 green = 255;
+                UInt8 blue = 255;
+                NSLog(@"%hhu, %hhu, %hhu", red, green, blue);
+                UIColor *color1 = [UIColor colorWithRed:red/255.f green:green/255.f blue:blue/255.f alpha:1.f];
+                [self.colorArray1 addObject:color1];
+                
+                
+            }
+        }
+    }
+    self.colorArray2 = [[NSMutableArray alloc] init];
+    
+    for (int i = 0; i < 9; i++) {
+        for (int j = 0; j < 11; j++) {
+            if (i % 9 <= 2) {
+                UInt8 red = 255;
+                UInt8 green = 0;
+                UInt8 blue = 0;
+                NSLog(@"%hhu, %hhu, %hhu", red, green, blue);
+                UIColor *color1 = [UIColor colorWithRed:red/255.f green:green/255.f blue:blue/255.f alpha:1.f];
+                [self.colorArray2 addObject:color1];
+            } else if (i % 9 <= 5) {
+                UInt8 red = 255;
+                UInt8 green = 255;
+                UInt8 blue = 255;
+                NSLog(@"%hhu, %hhu, %hhu", red, green, blue);
+                UIColor *color1 = [UIColor colorWithRed:red/255.f green:green/255.f blue:blue/255.f alpha:1.f];
+                [self.colorArray2 addObject:color1];
+                
+            } else {
+                UInt8 red = 255;
+                UInt8 green = 255;
+                UInt8 blue = 255;
+                NSLog(@"%hhu, %hhu, %hhu", red, green, blue);
+                UIColor *color1 = [UIColor colorWithRed:red/255.f green:green/255.f blue:blue/255.f alpha:1.f];
+                [self.colorArray2 addObject:color1];
+                
+                
+            }
+        }
+    }
+
+    
+//    [self initPulse];
+    NSTimer *aTimer = [NSTimer scheduledTimerWithTimeInterval:.9 target:self selector:@selector(animateLights) userInfo:nil repeats:YES];
     [aTimer fire];
     
 
@@ -204,23 +246,33 @@
     AudioServicesCreateSystemSoundID((__bridge CFURLRef)beatUrl, &_beatSound);
 }
 
+//-(void)animateLights {
+//    NSLog(@"fire");
+//    [self playSystemSound];
+//    [HMNLedControl setColorImage:self.randomArray];
+//    //rotate the array
+//    [self rotatePulse];
+//
+//    
+//
+//    
+//}
+
 -(void)animateLights {
-    NSLog(@"fire");
     [self playSystemSound];
-    
-//    if (self.lineCount > 11) {
-//        
-//        self.lineCount = 0;
-//        
-//        
-//    }
-    
-//    [self rotateLine:self.lineCount];
-    [HMNLedControl setColorImage:self.randomArray];
-//    self.lineCount++;
 
-    
+    if (self.firstSwitch == 0) {
+        [HMNLedControl setColorImage:self.colorArray];
 
+        _firstSwitch++;
+    } else if (self.firstSwitch == 1) {
+        [HMNLedControl setColorImage:self.colorArray1];
+        _firstSwitch++;
+        
+    } else if (self.firstSwitch == 2) {
+        [HMNLedControl setColorImage:self.colorArray2];
+        _firstSwitch = 0;
+    }
     
 }
 
